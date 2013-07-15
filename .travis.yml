@@ -1,0 +1,11 @@
+---
+install: true
+script: true
+rvm:
+  - 1.9.3
+  - 2.0.0
+deploy:
+  provider: engineyard
+  on:
+    rvm: 2.0.0
+  edge: true
